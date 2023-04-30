@@ -78,6 +78,20 @@
     
     
 }
+@media (max-width: 1082px) {
+    .header {
+        display: flex;
+        flex-direction: row;
+        position: absolute;
+        margin: 0;
+        height:80px;
+        width: 100%;
+        justify-content: space-between;
+        z-index: 200;
+        background-color: rgba(0, 0, 0, 0.818);
+    }
+}
+
 
 
 

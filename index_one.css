@@ -67,3 +67,34 @@ body {
     position: absolute;
     width: 100%;
 }
+@media (max-width: 1082px) {
+    body {
+        width: 1082px;
+        padding: 0px;
+        margin: 0px;
+        height: 3600px;
+        background-color: darkgray;
+    }
+    .flexbox {
+        width: 75%;
+        margin: 0px;
+        margin-left: 5px;
+        position: absolute;
+        justify-content: right;
+        
+        display: flex;
+        flex-direction: row;
+    
+    }
+    .images {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        z-index: 100;
+    }
+    .no_breaking_space {
+        white-space: nowrap;
+    }
+   
+
+}
