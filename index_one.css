@@ -92,7 +92,7 @@ body {
         position: absolute;
         font-size: 23px;
         margin-top: -210px;
-        margin-left: 457px;
+        margin-left: 0px;
         color: rgb(187, 159, 0);
         font-family: Dancing Script;
         white-space: nowrap;
@@ -101,7 +101,7 @@ body {
         position: absolute;
         font-size: 23px;
         margin-top: -210px;
-        margin-left: 0px;
+        margin-left: 1px;
         color: black;
         font-family: Dancing Script;
         white-space: nowrap;
@@ -109,6 +109,7 @@ body {
     body {
         padding: 0px;
         margin: 0px;
+        width: 420px;
         height: 4000px;
         background-color: darkgray;
     }
